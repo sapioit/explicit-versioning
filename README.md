@@ -11,18 +11,17 @@ Given `1.0.0.0` as the first version for a **_Production Release_**:
 
 * *Release**
 +    + is incremented when changing the API, changing the UX, switching to a new recommended version or ending support for previous versions,
-
--    + _Bug Fix(es)_ will increment version to `1.0.0.1`.
-
 +    + version `1.0.0.0` to `2.0.0.0`.
 
-+* **Incompatible**
+* **Incompatible**
 +    + is incremented when adding, changing, removing code or changing the UX while breaking compatibility with previous versions,
 +    + version `1.0.0.0` to `1.1.0.0`.
-+* **Compatible**
+
+* **Compatible**
 +    + is incremented when adding, changing or removing code while remaining compatible with previous versions,
 +    + version `1.0.0.0` to `1.0.1.0`.
-+*  **Fix**
+
+*  **Fix**
 +    + is incremented when a bug is fixed, or a security gap is solved.
 +    + version `1.0.0.0` to `1.0.0.1`.
 
